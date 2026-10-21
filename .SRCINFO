@@ -1,0 +1,14 @@
+pkgbase = gridtracker2-bin
+	pkgdesc = GridTracker (repackaged upstream binary)
+	pkgver = 2.261019.5
+	pkgrel = 1
+	url = https://gridtracker.org
+	arch = x86_64
+	license = BSD-3-Clause
+	noextract = GridTracker2-2.261019.5-x64.pacman
+	options = !strip
+	options = !debug
+	source = GridTracker2-2.261019.5-x64.pacman::https://download2.gridtracker.org/GridTracker2-2.261019.5-x64.pacman
+	sha256sums = SKIP
+
+pkgname = gridtracker2-bin
